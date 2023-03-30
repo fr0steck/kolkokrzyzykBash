@@ -172,7 +172,6 @@ wybierzTryb() {
   echo "Wybierz tryb rozgrywki :"
   echo "1) gra w parze"
   echo "2) gra z komputerem"
-  
   read type
   case $type in
   "1") graKomputer=false ;;
